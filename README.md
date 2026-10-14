@@ -22,3 +22,5 @@ npm run dev
 
 ## Note
 This is a demo project. No real bookings, payments, or emails are processed.
+# Booking-system
+Just a mockup
