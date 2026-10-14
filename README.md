@@ -1,6 +1,8 @@
 # Booking System
 A responsive booking mockup built with React and TypeScript.
 
+Direct link to github pages: https://granitgecko.github.io/Booking-system/
+
 ## Features
 - Date and time selection
 - Player count and session duration
