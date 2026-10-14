@@ -1,29 +1,24 @@
-# Welcome to your Lovable project
+# Bowling Booking System
+A responsive bowling booking mockup built with React and TypeScript.
 
-This project was built with [Lovable](https://lovable.dev).
+## Features
+- Date and time selection
+- Player count and session duration
+- Customer details form
+- Booking summary and price estimate
 
-## Build with Lovable
+## Tech Stack
+- React
+- TypeScript
+- React Router
+- Bootstrap
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Getting Started
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+```bash
+npm install
 npm run dev
 ```
 
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Note
+This is a demo project. No real bookings, payments, or emails are processed.
