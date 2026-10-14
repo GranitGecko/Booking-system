@@ -1,5 +1,5 @@
-# Bowling Booking System
-A responsive bowling booking mockup built with React and TypeScript.
+# Booking System
+A responsive booking mockup built with React and TypeScript.
 
 ## Features
 - Date and time selection
