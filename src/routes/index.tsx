@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Clock3, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SiteHeader } from "@/components/site-header";
+import activityImage from '../assets/activity.jpg'
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
@@ -14,7 +15,7 @@ export const Route = createFileRoute("/")({
 });
 function Home() {
   return <><SiteHeader /><main>
-    <section className="home-hero"><img src={"/Booking-system/src/assets/activity.jpg"} alt="Bowling lanes at Booking system" className="hero-photo" /><div className="hero-shade" /><div className="container hero-content">
+    <section className="home-hero"><img src={activityImage} alt="Bowling lanes at Booking system" className="hero-photo" /><div className="hero-shade" /><div className="container hero-content">
       <span className="eyebrow">A LITTLE FRIENDLY COMPETITION</span><h1>Booking system</h1><p>Make room for good times.<br />Your next great game starts here.</p>
       <Button asChild size="lg" className="hero-button"><Link to="/booking">Book a resource <ArrowRight /></Link></Button>
       <span className="hero-note">Online reservations · Demo experience</span>
